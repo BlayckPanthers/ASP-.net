@@ -10,10 +10,15 @@
     <Folder Include="Views\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Home\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="jQuery" Version="2.2.0" />
+    <PackageReference Include="bootstrap" Version="3.3.6" />
+    <PackageReference Include="jQuery.Validation" Version="1.17.0" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="3.2.3" />
   </ItemGroup>
 
   <ItemGroup>

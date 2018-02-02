@@ -15,5 +15,15 @@ namespace BetCore.Controllers
         {
             return View();
         }
+
+        /*
+        public IActionResult Test()
+        {
+            //retourner un fichier : FileResult, FileStreamResult
+            //retourner notFound : renvoie une 404
+            // redirect aussi
+            return View();
+        }
+        */
     }
 }
