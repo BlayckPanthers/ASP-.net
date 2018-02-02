@@ -84,6 +84,11 @@ namespace BetCore
         private  void ConfigureRoute(IRouteBuilder routeBuilder)
         {
             routeBuilder.MapRoute(
+                name: "apropos",
+                template: "a-propos",
+                defaults: new { controller = "home", action = "about" });
+
+            routeBuilder.MapRoute(
                 name: "Default",
                 template: "{controller}/{action}/{id?}");
         }
