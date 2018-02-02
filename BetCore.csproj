@@ -11,6 +11,7 @@
     <Folder Include="Models\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Users\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,5 +39,8 @@
     <Compile Update="Controllers\HomeController.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BetCoreModels\BetCoreModels.csproj" />
   </ItemGroup>
 </Project>

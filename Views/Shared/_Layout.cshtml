@@ -1,11 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <meta name="viewport" content="width=device-width" charset="utf-8" />
@@ -62,7 +55,8 @@
                     <ul class="nav navbar-nav navbar-right">
                         @*<li><a href="/home/About">A propos</a></li>*@
                         @*<li>@Html.ActionLink("A propos","About","Home")</li>*@
-                        <li><a href="@Url.RouteUrl("apropos")">A propos</a></li>
+                        @*<li><a href="@Url.RouteUrl("apropos")">A propos</a></li>*@
+                        <li><a asp-action="About" asp-controller="Home">A propos</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
